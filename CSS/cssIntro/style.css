@@ -1,0 +1,16 @@
+h1{
+    background-color: greenyellow;
+    color: black;
+}
+
+#topText{
+    height: 50px;
+}
+
+.centerAlign{
+    text-align: center;
+}
+
+.border{
+    border: 1px solid black;
+}

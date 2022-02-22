@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="flavor">Flavor</label>
+            <input name="flavor" type="text" placeholder="vanilla, chocolate, strawberry, etc.">
+        </div>
+
+        <div>
+            <label for="numScoops">How many scoops?</label>
+            <input name="numScoops" type="number">
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input name="password" type="password">
+        </div>
+
+        <div>
+            <label for="orderDate">When are you ordering this for?:</label>
+            <input name="orderDate" type="datetime-local">
+        </div>
+
+        <div>
+            <label for="topping">Topping:</label>
+            <select name="topping">
+                <option>Hot fudge</option>
+                <option>Rainbow spranks</option>
+                <option>Crushed cherries</option>
+                <option>Caramel</option>
+                <option>Strawberries</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="description">Description:</label>
+            <textarea name="description" cols="30" rows="8" maxlength="10"></textarea>
+        </div>
+
+        <div>
+            <label for="whipped">Whipped cream?:</label>
+            <input name="whipped" type="checkbox">
+        </div>
+
+        <div>
+            <label for="rating">How good is it?</label>
+
+            <label for="rating">1:</label>
+            <input name="rating" type="radio" value="1">
+            <label for="rating">2:</label>
+            <input name="rating" type="radio" value="2">
+            <label for="rating">3:</label>
+            <input name="rating" type="radio" value="3">
+        </div>
+        <!-- Submit buttons below!! -->
+        <!-- <input type="submit" value="click me!"> -->
+        <button type="submit">click the button!</button>
+    </form>
+</body>
+</html>
