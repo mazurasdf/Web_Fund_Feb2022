@@ -1,0 +1,30 @@
+/* div{
+    height:300px;
+    width:300px;
+    background-color: blue;
+    display: inline-block;
+} */
+
+.nav{
+    display:block;
+    width: 99%;
+    height: 100px;
+    background-color: darkseagreen;
+    border: 2px solid black
+}
+
+#sideBar{
+    display: inline-block;
+    height: 500px;
+    width: 30%;
+    background-color: coral;
+    border: 2px solid black;
+}
+
+#mainContent{
+    display: inline-block;
+    height: 500px;
+    width: 65%;
+    background-color: rgb(153, 91, 253);
+    border: 2px solid black;
+}
